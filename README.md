@@ -7,8 +7,6 @@
 
 A sleek, responsive weather application built with Vue.js that provides real-time weather information for any location worldwide. The application features a dynamic background that changes based on the temperature.
 
-![Vuether Screenshot](https://via.placeholder.com/800x400?text=Vuether+Screenshot)
-
 ## 🌟 Features
 
 - **Real-time Weather Data**: Get current weather information from OpenWeatherMap API
