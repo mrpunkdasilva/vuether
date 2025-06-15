@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  vuether:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: vuether-app
+    ports:
+      - "8080:80"
+    environment:
+      - API_SECRET=${API_SECRET}
+    restart: unless-stopped
+    networks:
+      - vuether-network
+
+networks:
+  vuether-network:
+    driver: bridge

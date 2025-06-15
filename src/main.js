@@ -1,4 +1,9 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import 'dotenv/config'
 
-createApp(App).mount('#app')
+// Create Vue application
+const app = createApp(App)
+
+// Mount the application
+app.mount('#app')
